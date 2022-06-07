@@ -1,9 +1,19 @@
 {
     "feedback":[
         {
-            "id": 1,
-            "rating": 10,
-            "text" :"feedback item 1 from server"
+            "id": {
+          "int": {
+            "min": 21,
+            "max": 100
+          },
+                "rating": {
+          "int": {
+            "min": 21,
+            "max": 100
+          },
+            "text" :{
+      "string": {}
+    }
         }
     ]
 }
