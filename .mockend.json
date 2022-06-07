@@ -2,18 +2,20 @@
     "feedback":[
         {
             "id": {
-          "int": {
-            "min": 21,
-            "max": 100
-          },
-                "rating": {
-          "int": {
-            "min": 21,
-            "max": 100
-          },
+                "int": {
+                        "min": 21,
+                        "max": 1000
+                    }
+            },
+            "rating": {
+              "int": {
+                "min": 21,
+                "max": 100
+              }
+            },
             "text" :{
-      "string": {}
-    }
+                "string": {}
+            }
         }
     ]
 }
